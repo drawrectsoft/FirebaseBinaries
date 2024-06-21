@@ -1,39 +1,94 @@
 // swift-tools-version: 5.6
+
 import PackageDescription
 
 let package = Package(
-    name: "FirebaseBinaries",
-    platforms: [
-        .iOS(.v14)
-    ],
+    name: "Firebase-binary",
     products: [
         .library(
-            name: "FirebaseBinaries",
+            name: "Firebase-binary",
             targets: [
-                "FirebaseAnalytics",
-                "FirebaseCore",
+                "FirebaseCrashlytics",
                 "FirebaseInstallations",
-                "GoogleAppMeasurement",
+                "GoogleDataTransport",
                 "GoogleUtilities",
-                "nanopb",
-                "FBLPromises",
-                "FirebaseCoreInternal",
                 "GoogleAppMeasurementIdentitySupport",
+                "FirebaseCore",
+                "FirebaseAnalytics",
+                "GoogleAppMeasurement",
+                "PromisesObjC",
+                "FirebaseCoreDiagnostics",
+                "nanopb",
                 "FirebaseMessaging",
-                "GoogleDataTransport"
-            ])
+                "FirebaseRemoteConfig",
+                "FirebaseABTesting",
+                "FirebasePerformance",
+            ]
+        ),
     ],
+    dependencies: [],
     targets: [
-        .binaryTarget(name: "FirebaseAnalytics", path: "Frameworks/FirebaseAnalytics/FirebaseAnalytics.xcframework"),
-        .binaryTarget(name: "FirebaseCore", path: "Frameworks/FirebaseAnalytics/FirebaseCore.xcframework"),
-        .binaryTarget(name: "FirebaseInstallations", path: "Frameworks/FirebaseAnalytics/FirebaseInstallations.xcframework"),
-        .binaryTarget(name: "GoogleAppMeasurement", path: "Frameworks/FirebaseAnalytics/GoogleAppMeasurement.xcframework"),
-        .binaryTarget(name: "GoogleUtilities", path: "Frameworks/FirebaseAnalytics/GoogleUtilities.xcframework"),
-        .binaryTarget(name: "nanopb", path: "Frameworks/FirebaseAnalytics/nanopb.xcframework"),
-        .binaryTarget(name: "FBLPromises", path: "Frameworks/FirebaseAnalytics/FBLPromises.xcframework"),
-        .binaryTarget(name: "FirebaseCoreInternal", path: "Frameworks/FirebaseAnalytics/FirebaseCoreInternal.xcframework"),
-        .binaryTarget(name: "GoogleAppMeasurementIdentitySupport", path: "Frameworks/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework"),
-        .binaryTarget(name: "FirebaseMessaging", path: "Frameworks/FirebaseMessaging/FirebaseMessaging.xcframework"),
-        .binaryTarget(name: "GoogleDataTransport", path: "Frameworks/FirebaseMessaging/GoogleDataTransport.xcframework")
-    ]
+        .binaryTarget(
+            name: "FirebaseCrashlytics",
+            path: "Firebase/FirebaseCrashlytics/FirebaseCrashlytics.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseInstallations",
+            path: "Firebase/FirebaseAnalytics/FirebaseInstallations.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "GoogleDataTransport",
+            path: "Firebase/FirebaseAnalytics/GoogleDataTransport.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "GoogleUtilities",
+            path: "Firebase/FirebaseAnalytics/GoogleUtilities.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "GoogleAppMeasurementIdentitySupport",
+            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseCore",
+            path: "Firebase/FirebaseAnalytics/FirebaseCore.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseAnalytics",
+            path: "Firebase/FirebaseAnalytics/FirebaseAnalytics.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "GoogleAppMeasurement",
+            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurement.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "PromisesObjC",
+            path: "Firebase/FirebaseAnalytics/PromisesObjC.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseCoreDiagnostics",
+            path: "Firebase/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "nanopb",
+            path: "Firebase/FirebaseAnalytics/nanopb.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseMessaging",
+            path: "Firebase/FirebaseMessaging/FirebaseMessaging.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseRemoteConfig",
+            path: "Firebase/FirebasePerformance/FirebaseRemoteConfig.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebaseABTesting",
+            path: "Firebase/FirebasePerformance/FirebaseABTesting.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "FirebasePerformance",
+            path: "Firebase/FirebasePerformance/FirebasePerformance.xcframework.zip"
+        ),
+    ],
+    cxxLanguageStandard: .cxx14
 )
+
