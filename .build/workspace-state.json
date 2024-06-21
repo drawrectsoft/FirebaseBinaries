@@ -1,0 +1,220 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/PromisesObjC.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "PromisesObjC"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/FirebaseAnalytics.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseAnalytics"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GoogleAppMeasurementIdentitySupport"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/FirebaseCore.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseCore"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebasePerformance/FirebaseABTesting.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseABTesting"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebasePerformance/FirebaseRemoteConfig.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseRemoteConfig"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/nanopb.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "nanopb"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseMessaging/FirebaseMessaging.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseMessaging"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseCrashlytics/FirebaseCrashlytics.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseCrashlytics"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebasePerformance/FirebasePerformance.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebasePerformance"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/GoogleAppMeasurement.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GoogleAppMeasurement"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/GoogleUtilities.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GoogleUtilities"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/FirebaseInstallations.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseInstallations"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FirebaseCoreDiagnostics"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "firebasebinaries",
+          "kind" : "root",
+          "location" : "/Users/gorislavgipatskij/FirebaseBinaries",
+          "name" : "FirebaseBinaries"
+        },
+        "path" : "/Users/gorislavgipatskij/FirebaseBinaries/Firebase/FirebaseAnalytics/GoogleDataTransport.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GoogleDataTransport"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
