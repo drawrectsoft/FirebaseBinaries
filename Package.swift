@@ -1,13 +1,12 @@
-// swift-tools-version: 5.9
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version: 5.6
 
 import PackageDescription
 
 let package = Package(
-    name: "FirebaseBin",
+    name: "Firebase-binary",
     products: [
         .library(
-            name: "FirebaseBin",
+            name: "Firebase-binary",
             targets: [
                 "FirebaseCrashlytics",
                 "FirebaseInstallations",
@@ -31,63 +30,63 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FirebaseCrashlytics",
-            path: "Sources/FirebaseCrashlytics/FirebaseCrashlytics.xcframework"
+            path: "Firebase/FirebaseCrashlytics/FirebaseCrashlytics.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseInstallations",
-            path: "Sources/FirebaseAnalytics/FirebaseInstallations.xcframework"
+            path: "Firebase/FirebaseAnalytics/FirebaseInstallations.xcframework.zip"
         ),
         .binaryTarget(
             name: "GoogleDataTransport",
-            path: "Sources/FirebaseAnalytics/GoogleDataTransport.xcframework"
+            path: "Firebase/FirebaseAnalytics/GoogleDataTransport.xcframework.zip"
         ),
         .binaryTarget(
             name: "GoogleUtilities",
-            path: "Sources/FirebaseAnalytics/GoogleUtilities.xcframework"
+            path: "Firebase/FirebaseAnalytics/GoogleUtilities.xcframework.zip"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurementIdentitySupport",
-            path: "Sources/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework"
+            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseCore",
-            path: "Sources/FirebaseAnalytics/FirebaseCore.xcframework"
+            path: "Firebase/FirebaseAnalytics/FirebaseCore.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseAnalytics",
-            path: "Sources/FirebaseAnalytics/FirebaseAnalytics.xcframework"
+            path: "Firebase/FirebaseAnalytics/FirebaseAnalytics.xcframework.zip"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurement",
-            path: "Sources/FirebaseAnalytics/GoogleAppMeasurement.xcframework"
+            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurement.xcframework.zip"
         ),
         .binaryTarget(
             name: "PromisesObjC",
-            path: "Sources/FirebaseAnalytics/PromisesObjC.xcframework"
+            path: "Firebase/FirebaseAnalytics/PromisesObjC.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseCoreDiagnostics",
-            path: "Sources/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework"
+            path: "Firebase/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework.zip"
         ),
         .binaryTarget(
             name: "nanopb",
-            path: "Sources/FirebaseAnalytics/nanopb.xcframework"
+            path: "Firebase/FirebaseAnalytics/nanopb.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseMessaging",
-            path: "Sources/FirebaseMessaging/FirebaseMessaging.xcframework"
+            path: "Firebase/FirebaseMessaging/FirebaseMessaging.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseRemoteConfig",
-            path: "Sources/FirebasePerformance/FirebaseRemoteConfig.xcframework"
+            path: "Firebase/FirebasePerformance/FirebaseRemoteConfig.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebaseABTesting",
-            path: "Sources/FirebasePerformance/FirebaseABTesting.xcframework"
+            path: "Firebase/FirebasePerformance/FirebaseABTesting.xcframework.zip"
         ),
         .binaryTarget(
             name: "FirebasePerformance",
-            path: "Sources/FirebasePerformance/FirebasePerformance.xcframework"
+            path: "Firebase/FirebasePerformance/FirebasePerformance.xcframework.zip"
         ),
     ],
     cxxLanguageStandard: .cxx14
