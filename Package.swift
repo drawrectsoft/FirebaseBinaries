@@ -1,12 +1,13 @@
-// swift-tools-version: 5.6
+// swift-tools-version: 5.9
+// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "Firebase-binary",
+    name: "FirebaseBin",
     products: [
         .library(
-            name: "Firebase-binary",
+            name: "FirebaseBin",
             targets: [
                 "FirebaseCrashlytics",
                 "FirebaseInstallations",
@@ -30,63 +31,63 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FirebaseCrashlytics",
-            path: "Firebase/FirebaseCrashlytics/FirebaseCrashlytics.xcframework"
+            path: "Sources/FirebaseCrashlytics/FirebaseCrashlytics.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseInstallations",
-            path: "Firebase/FirebaseAnalytics/FirebaseInstallations.xcframework"
+            path: "Sources/FirebaseAnalytics/FirebaseInstallations.xcframework"
         ),
         .binaryTarget(
             name: "GoogleDataTransport",
-            path: "Firebase/FirebaseAnalytics/GoogleDataTransport.xcframework"
+            path: "Sources/FirebaseAnalytics/GoogleDataTransport.xcframework"
         ),
         .binaryTarget(
             name: "GoogleUtilities",
-            path: "Firebase/FirebaseAnalytics/GoogleUtilities.xcframework"
+            path: "Sources/FirebaseAnalytics/GoogleUtilities.xcframework"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurementIdentitySupport",
-            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework"
+            path: "Sources/FirebaseAnalytics/GoogleAppMeasurementIdentitySupport.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseCore",
-            path: "Firebase/FirebaseAnalytics/FirebaseCore.xcframework"
+            path: "Sources/FirebaseAnalytics/FirebaseCore.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseAnalytics",
-            path: "Firebase/FirebaseAnalytics/FirebaseAnalytics.xcframework"
+            path: "Sources/FirebaseAnalytics/FirebaseAnalytics.xcframework"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurement",
-            path: "Firebase/FirebaseAnalytics/GoogleAppMeasurement.xcframework"
+            path: "Sources/FirebaseAnalytics/GoogleAppMeasurement.xcframework"
         ),
         .binaryTarget(
             name: "PromisesObjC",
-            path: "Firebase/FirebaseAnalytics/PromisesObjC.xcframework"
+            path: "Sources/FirebaseAnalytics/PromisesObjC.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseCoreDiagnostics",
-            path: "Firebase/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework"
+            path: "Sources/FirebaseAnalytics/FirebaseCoreDiagnostics.xcframework"
         ),
         .binaryTarget(
             name: "nanopb",
-            path: "Firebase/FirebaseAnalytics/nanopb.xcframework"
+            path: "Sources/FirebaseAnalytics/nanopb.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseMessaging",
-            path: "Firebase/FirebaseMessaging/FirebaseMessaging.xcframework"
+            path: "Sources/FirebaseMessaging/FirebaseMessaging.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseRemoteConfig",
-            path: "Firebase/FirebasePerformance/FirebaseRemoteConfig.xcframework"
+            path: "Sources/FirebasePerformance/FirebaseRemoteConfig.xcframework"
         ),
         .binaryTarget(
             name: "FirebaseABTesting",
-            path: "Firebase/FirebasePerformance/FirebaseABTesting.xcframework"
+            path: "Sources/FirebasePerformance/FirebaseABTesting.xcframework"
         ),
         .binaryTarget(
             name: "FirebasePerformance",
-            path: "Firebase/FirebasePerformance/FirebasePerformance.xcframework"
+            path: "Sources/FirebasePerformance/FirebasePerformance.xcframework"
         ),
     ],
     cxxLanguageStandard: .cxx14
